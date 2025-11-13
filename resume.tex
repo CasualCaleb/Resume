@@ -101,7 +101,7 @@
 
 % Icons
 \newcommand{\phoneicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/phone-icon.png}}}
-\newcommand{\emailicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/email-icon.png}}}
+\newcommand{\emailicon}{\raisebox{-0.4ex}{\includegraphics[height=10pt]{icons/email-icon.png}}}
 \newcommand{\linkedinicon}{\raisebox{-0.6ex}{\includegraphics[height=12pt]{icons/linkedin-icon.png}}}
 \newcommand{\githubicon}{\raisebox{-0.8ex}{\includegraphics[height=12pt]{icons/github-icon.png}}}
 \newcommand{\portfolioicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/portfolio-icon.png}}}
@@ -113,6 +113,7 @@
 
 \begin{document}
 
+
 %----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 %   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
@@ -122,34 +123,36 @@
 \begin{center}
     \textbf{\Huge \scshape Caleb McMullin} \\ \vspace{1pt}
     {\small 
-        \phoneicon\ {949-529-7814} $|$
+        \phoneicon\ 949-529-7814 $|$
         \emailicon\ \href{mailto:McMullinCaleb@csu.fullerton.edu}{{McMullinCaleb@csu.fullerton.edu}} $|$ 
         \linkedinicon\ \href{https://linkedin.com/in/caleb-mcmullin}{{linkedin.com/in/caleb-mcmullin}} $|$
         \githubicon\ \href{https://github.com/casualcaleb}{{github.com/casualcaleb}}
     }
 \end{center}
 
+
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {California State University, Fullerton}{Fullerton, CA}
-      {Bachelor of Science in Computer Science \textnormal{(In Progress)}}{Aug. 2025 -- Present}
+      {B.S. in Computer Science}{Aug 2025 -- May 2027}
   \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Javascript, HTML/CSS, C++, C\#, C} \\
+     \textbf{Frameworks/Tools}{: React, Node.js, Flask, Material-UI, Unity, Linux} \\
+    }}
+ \end{itemize}
 
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
-    \resumeSubheading
-      {Undergraduate Research Assistant}{June 2020 -- Present}
-      {Texas A\&M University}{College Station, TX}
-      \resumeItemListStart
-        \resumeItem{Developed a REST API using FastAPI and PostgreSQL to store data from learning management systems}
-        \resumeItem{Developed a full-stack web application using Flask, React, PostgreSQL and Docker to analyze GitHub data}
-        \resumeItem{Explored ways to visualize GitHub collaboration in a classroom setting}
-      \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
 %    \resumeSubSubheading
@@ -162,25 +165,23 @@
 %-------------------------------------------
 
     \resumeSubheading
-      {Information Technology Support Specialist}{Sep. 2018 -- Present}
-      {Southwestern University}{Georgetown, TX}
+      {Example Experience}{July 2018 -- May 2021}
+      {Example Company}{Irvine, CA}
       \resumeItemListStart
-        \resumeItem{Communicate with managers to set up campus computers used on campus}
-        \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
-        \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+        \resumeItem{Example item}
+        \resumeItem{Example item}
+        \resumeItem{Example item}
+        \resumeItem{Example item}
     \resumeItemListEnd
 
     \resumeSubheading
-      {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
-      {Southwestern University}{Georgetown, TX}
+      {Example Experience}{May 2021 -- Present}
+      {Example Company}{Irvine, CA}
       \resumeItemListStart
-        \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
-        \resumeItem{Developed a game in Java to test the generated dungeons}
-        \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
-        \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
-        \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
-        \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
-      \resumeItemListEnd
+        \resumeItem{Example item}
+        \resumeItem{Example item}
+        \resumeItem{Example item}
+    \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
@@ -188,26 +189,30 @@
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
-            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
-            \resumeItem{Visualized GitHub data to show collaboration}
-            \resumeItem{Used Celery and Redis for asynchronous tasks}
-          \resumeItemListEnd
-      \resumeProjectHeading
-          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
-          \resumeItemListStart
-            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
-            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
-            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
-            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
-          \resumeItemListEnd
-    \resumeSubHeadingListEnd
+        \resumeProjectHeading
+            {\textbf{IoT Wi-Fi Lighting System} $|$ \emph{Python, Flask, React, C++}}{June 2020 -- Present}
+            \resumeItemListStart
+                \resumeItem{Designed and built a network of Wi-Fi LED light tubes controlled in real time over a custom UDP protocol.}
+                \resumeItem{Developed a full-stack web application control interface using Flask and React, enabling instant color and animation triggering over local Wi-Fi.}
+                \resumeItem{Programmed ESP8266 microcontrollers in C++ to execute animations and process UDP lighting commands.}
+                \resumeItem{Added real-time device status reporting so the web application can monitor connectivity and responsiveness.}
+                \resumeItem{Engineered custom 3D-printed housings for durability and professional stage presentation.}
+            \resumeItemListEnd
+\resumeSubHeadingListEnd
 
-%
 
+%-----------extracurricular-----------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeProjectHeading
+            {\textbf{Example Extracurricular} $|$ \emph{Example position}}{Aug 2025 -- Present}
+            \resumeItemListStart
+                \resumeItem{Example item}
+                \resumeItem{Example item}
+            \resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-------------------------------------------
+
+
 \end{document}
