@@ -1,8 +1,7 @@
 %-------------------------
 % Resume in Latex
-% Author : Jake Gutierrez
+% Author : Caleb McMullin
 % Based off of: https://github.com/sb2nov/resume
-% License : MIT
 %------------------------
 
 \documentclass[letterpaper,11pt]{article}
@@ -18,6 +17,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{graphicx}
 \input{glyphtounicode}
 
 
@@ -99,6 +99,14 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+% Icons
+\newcommand{\phoneicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/phone-icon.png}}}
+\newcommand{\emailicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/email-icon.png}}}
+\newcommand{\linkedinicon}{\raisebox{-0.6ex}{\includegraphics[height=12pt]{icons/linkedin-icon.png}}}
+\newcommand{\githubicon}{\raisebox{-0.8ex}{\includegraphics[height=12pt]{icons/github-icon.png}}}
+\newcommand{\portfolioicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/portfolio-icon.png}}}
+\newcommand{\homeicon}{\raisebox{-0.5ex}{\includegraphics[height=10pt]{icons/house-solid.png}}}
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -113,21 +121,20 @@
 
 \begin{center}
     \textbf{\Huge \scshape Caleb McMullin} \\ \vspace{1pt}
-    \small 949-529-7814 $|$ \href{mailto:McMullinCaleb@csu.fullerton.edu}{\underline{McMullinCaleb@csu.fullerton.edu}} $|$ 
-    \href{https://linkedin.com/in/caleb-mcmullin}{\underline{linkedin.com/in/caleb-mcmullin}} $|$
-    \href{https://github.com/casualcaleb}{\underline{github.com/casualcaleb}}
+    {\small 
+        \phoneicon\ {949-529-7814} $|$
+        \emailicon\ \href{mailto:McMullinCaleb@csu.fullerton.edu}{{McMullinCaleb@csu.fullerton.edu}} $|$ 
+        \linkedinicon\ \href{https://linkedin.com/in/caleb-mcmullin}{{linkedin.com/in/caleb-mcmullin}} $|$
+        \githubicon\ \href{https://github.com/casualcaleb}{{github.com/casualcaleb}}
+    }
 \end{center}
-
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Southwestern University}{Georgetown, TX}
-      {Bachelor of Arts in Computer Science, Minor in Business}{Aug. 2018 -- May 2021}
-    \resumeSubheading
-      {Blinn College}{Bryan, TX}
-      {Associate's in Liberal Arts}{Aug. 2014 -- May 2018}
+      {California State University, Fullerton}{Fullerton, CA}
+      {Bachelor of Science in Computer Science \textnormal{(In Progress)}}{Aug. 2025 -- Present}
   \resumeSubHeadingListEnd
 
 
